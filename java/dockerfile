@@ -1,0 +1,4 @@
+FROM openjdk:8-jdk-slim
+RUN mkdir /app
+ENV TZ=Asia/Shanghai
+ADD demo-SNAPSHOT.jar /app/demo-SNAPSHOT.jar
